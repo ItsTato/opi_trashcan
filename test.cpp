@@ -1,6 +1,6 @@
 #include <wiringPi.h>
 #include <stdio.h>
-
+// sudo gcc -o test test.cpp -l wiringPi
 int LED = 112;
 
 int main() {
