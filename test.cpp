@@ -47,7 +47,7 @@ int main() {
         digitalWrite(LED_2,LOW);
         digitalWrite(LED_3,LOW);
         digitalWrite(LED_4,HIGH);
-        digitlaWrite(LED_5,LOW);
+        digitalWrite(LED_5,LOW);
         delay(WAIT_TIME_MS);
         digitalWrite(LED_1,LOW);
         digitalWrite(LED_2,LOW);
@@ -60,7 +60,7 @@ int main() {
         digitalWrite(LED_3,LOW);
         digitalWrite(LED_4,LOW);
         digitalWrite(LED_5,LOW);
-        delay(WAIT_TIME_MS)
+        delay(WAIT_TIME_MS);
     }
 
     return 1;
