@@ -21,14 +21,7 @@ def preprocess_image(img_path, target_size=(512, 512)):
 	img_array /= 255.0
 	return img_array
 
-def predict_image(img_path):
-	"""
-	Predict if the image is a bottle or not.
-	Args:
-		img_path (str): Path to the image.
-	Returns:
-		str: Prediction result.
-	"""
+def predict_image(img_path) -> str:
 	img_array = preprocess_image(img_path)
 	prediction = model.predict(img_array)
 	if prediction[0][0] > 0.5:
