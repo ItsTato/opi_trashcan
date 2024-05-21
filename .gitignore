@@ -1,3 +1,10 @@
+*.pyc
+*.jpg
+*.png
+*.jpeg
+/images
+/image_classifier/data
+
 # Prerequisites
 *.d
 
