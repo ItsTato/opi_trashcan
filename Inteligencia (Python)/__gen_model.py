@@ -55,7 +55,7 @@ model.compile(optimizer="adam",loss="binary_crossentropy",metrics=["accuracy"])
 model.fit(
 	train_generator,
 	validation_data=validation_generator,
-	epochs=5
+	epochs=1
 )
 
 model.save("botellas.h5")
